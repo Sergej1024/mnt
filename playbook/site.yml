@@ -14,3 +14,6 @@
       - name: Print fact
         debug:
           msg: "{{ some_fact }}"
+      - name: Print vault_key
+        debug:
+          msg: "{{ vault_key }}"
